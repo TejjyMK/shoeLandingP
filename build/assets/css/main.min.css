@@ -265,7 +265,6 @@ body {
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #222;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -342,3 +341,44 @@ hr {
   top: 0;
   width: 100%;
   left: 0; }
+
+#header {
+  background: url("../img/heroBackground.jpg") no-repeat;
+  background-size: cover;
+  height: 700px;
+  color: white;
+  text-align: center;
+  overflow: auto; }
+
+img {
+  max-width: 500px;
+  width: 100%; }
+
+article {
+  width: 60%;
+  margin: 0 auto; }
+
+h1 {
+  margin-bottom: 10px; }
+
+.main-nav {
+  display: flex;
+  margin-top: 20px;
+  padding: 0; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav a {
+    color: white;
+    border-radius: 4px;
+    padding: 10px 50px;
+    text-decoration: none;
+    display: block;
+    font-weight: 900;
+    text-transform: uppercase; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+
+a.download {
+  background: white;
+  color: #00adff;
+  box-shadow: 0 13px 10px -10px rgba(0, 0, 0, 0.2); }
