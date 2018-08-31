@@ -382,6 +382,28 @@ li img {
 .device {
   border-top: 3px solid #00adff; }
 
+#discount {
+  margin-top: 70px; }
+
+.discountLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .discountLayout .offer {
+    width: 40%;
+    margin: 0 auto; }
+  .discountLayout .offer .button {
+    background: #00d4ff;
+    background: linear-gradient(125deg, #00d4ff 0%, #15c9cb 48%, #2af598 100%);
+    color: white;
+    padding: 10px 70px;
+    font-size: 18px; }
+
+#download {
+  background: #5828ec;
+  padding: 100px 0;
+  margin-top: -80px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
