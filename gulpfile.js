@@ -32,6 +32,8 @@ var styleSrc = 'source/sass/**/*.sass',
 gulp.task('sass', function() {
   gulp
     .src('source/sass/**/*.sass')
+    // ! for knowing what sass partial it is from in the inspect on browswe
+    .pipe(sourcemaps.init()) 
     .pipe(plumber())
     .pipe(
       sass({
@@ -44,7 +46,7 @@ gulp.task('sass', function() {
         suffix: '.min'
       })
     )
-
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('build/assets/css'));
 });
 
