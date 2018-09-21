@@ -6,15 +6,23 @@
     padding: 100px 0 
     color: white
     text-align: center
+    background-position: center
+
+    @media only screen and (max-width: 600px)
+        margin-top: 70px
+        padding: 60px
+
 
     h2
         font-size: 68px 
         text-transform: uppercase
         font-weight: 900 
         margin: 0
-
+        @media only screen and (max-width: 680px)
+            font-size: 44px
+bas
     p
-        width: 100%
+        width: 100% 
         max-width: 460px
         margin: 20px auto 
         font-weight: 900
@@ -23,6 +31,9 @@
         position: relative 
         width: 250px  
         margin: 0 15px
+        @media only screen and (max-width: 680px)
+            margin: 10px 15px
+
 
     .apple:before, .google:before 
         position: absolute
